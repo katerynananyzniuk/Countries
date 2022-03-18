@@ -44,6 +44,18 @@ body {
   background-color: rgb(90, 167, 202);
 }
 
+.header__btn_sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort__img {
+  font-size: 20px;
+  color: #fff;
+}
+
 .main {
   width: 100%;
   padding: 20px;

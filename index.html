@@ -13,6 +13,7 @@
       <h1 class="header__title">List of countries</h1>
       <div class="header__btn-group">
         <div class="btn-group_criteria">
+          <button class="header__btn_all">All countries</button>
           <button class="header__btn_smaller">Smaller than Lithuania</button>
           <button class="header__btn_oceania">Oceania</button>
         </div>
@@ -23,32 +24,9 @@
       </div>
     </header>
     <main class="main">
-      <ul class="main__list">
-        <li class="list__item">
-          <p class="item__title">
-            <span class="item__name">Afghanistan</span>
-            is a country in 
-            <span class="item__region">Asia</span></p>
-          <p class="item__text">Its area is 
-            <span class="item__area">652230</span>
-            <span class="item__area_units"> km2</span>
-          </p>
-          <p class="item__text">Independence of the country: <span class="item__independence">false</span></p>
-        </li>
-        <li class="list__item">
-          <p class="item__title">
-            <span class="item__name">Åland Islands</span>
-            is a country in 
-            <span class="item__region">Europe</span></p>
-          <p class="item__text">Its area is 
-            <span class="item__area">652230</span>
-            <span class="item__area_units"> km2</span>
-          </p>
-          <p class="item__text">Independence of the country: <span class="item__independence">false</span></p>
-        </li>
-      </ul>
+      <ul class="main__list" id="countries"></ul>
     </main>
   </div>
-  <script src="js/index.js"></script>
+  <script src="js/index.js" type="module"></script>
 </body>
 </html>

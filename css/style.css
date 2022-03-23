@@ -8,11 +8,11 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 14px;
   background-color: rgb(244, 255, 244);
-  color:rgb(100, 100, 100); 
+  color: rgb(100, 100, 100); 
   text-align: left;
 }
 
-.wrapper{
+.wrapper {
   max-width: 60%;
   margin: 20px auto;
 }
@@ -54,6 +54,10 @@ body {
   gap: 10px;
 }
 
+.header__btn_sort:focus-visible {
+  outline: none;
+}
+
 .sort__img {
   font-size: 20px;
   color: #fff;
@@ -66,7 +70,7 @@ body {
 }
 
 .list__item {
-  min-width: 515px;
+  min-width: 480px;
   padding: 10px;
   margin-bottom: 20px;
   list-style: none;
